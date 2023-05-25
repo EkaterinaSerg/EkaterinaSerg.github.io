@@ -37,7 +37,10 @@
     left: -50%;
     float: left;
     margin: 0 10px;
-    height: 40px
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 #mainmenu ul li a {
     color: #162225;
@@ -64,7 +67,7 @@
     font: 30px Arial, Helvetica, sans-serif;
     padding: 20px;
     position: relative;
-    top: 74px;
+    top: 25px;
     left: 225px;
 }
 
@@ -78,16 +81,20 @@
     font: 16px Arial, Helvetica, sans-serif;
     padding: 0;
     position: relative;
-    top: 10px;
+    top: -42px;
     left: 660px;
+}
+
+#myph {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .myphoto {
     width: 980px; /* Ширина слоя в пикселах */
     padding: 10px; /* Поля вокруг текста */
-    text-align: center;
-    margin-top: 50px;
-    margin-left: 16%;
+    margin-top: 0;
 }
 
 .ame {
