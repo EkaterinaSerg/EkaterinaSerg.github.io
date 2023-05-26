@@ -59,21 +59,23 @@ a:hover {
     top: -20px;
     color: #162225;
     font: 16px Arial, Helvetica, sans-serif;
-    line-height: 1.6;
+    line-height: 1.5;
 }
 
 .eng {
     position: relative;
-    top: -35px;
+    top: -19px;
     color: #162225;
     font: 16px Arial, Helvetica, sans-serif;
-    line-height: 1.6;
+    line-height: 1.3;
     transform-origin: top;
     transform: rotate(270deg);
 }
 
 
 #myph {
+    position: relative;
+    top: 35px;
     display: flex;
     justify-content: space-around;
     align-items: center;
