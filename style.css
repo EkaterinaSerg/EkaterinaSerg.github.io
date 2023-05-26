@@ -6,11 +6,12 @@
 
 
  .menu {
-    width: 100%;
+    width: 80%;
     height: 70px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-left: 10%;
  } 
 
  .menu1 p, a {
@@ -37,13 +38,14 @@ a:hover {
 }
 
 .name {
-    width: 100%;
+    width: 90%;
     height: 100px;
     position: relative;
     top: 65px;
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
+    margin-left: 5%;
 }
 
 .myname {
@@ -59,6 +61,17 @@ a:hover {
     font: 16px Arial, Helvetica, sans-serif;
     line-height: 1.6;
 }
+
+.eng {
+    position: relative;
+    top: -35px;
+    color: #162225;
+    font: 16px Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    transform-origin: top;
+    transform: rotate(270deg);
+}
+
 
 #myph {
     display: flex;
