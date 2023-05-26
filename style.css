@@ -4,58 +4,33 @@
     /* background: linear-gradient(to right, #9FBDC6, #CFD6D8); */
   }
 
-  *,
-*::after,
-*::before {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -o-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-#mainmenu {
-    position: relative;
-    top: 20px;
-    overflow: hidden;
-    height: 40px;
-    margin: 0;
-}
-#mainmenu ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    position: relative;
-    left: 50%;
-    float: left;
-    font: 14px Arial, Helvetica, sans-serif;
-    height: 40px
-}
-#mainmenu ul li {
-    position: relative;
-    left: -50%;
-    float: left;
-    margin: 0 10px;
-    height: 40px;
+
+ .menu {
+    width: 100%;
+    height: 70px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
-#mainmenu ul li a {
-    color: #162225;
-    display: block;
+ } 
+
+ .menu1 p, a {
+    color: #000000;
+    font: 15px Arial, Helvetica, sans-serif;
+    padding: 0px;
+    position: relative;
+    line-height: 2;
+    text-align: center;
     text-decoration: none;
-    padding: 0 78px;
-    line-height: 40px;
 }
-#mainmenu ul li a:hover {
-    font-size: 25px;
+
+a:hover {
+    font: 25px Arial, Helvetica, sans-serif;
 }
+
 
 #linemenu {
     position: relative;
-    top: 40px;
+    top: 10px;
     size: 2px;
     width: 937px;
     margin: auto;
@@ -63,8 +38,9 @@
 
 .name {
     width: 100%;
-    height: 150px;
-    padding: 0 80px;
+    height: 100px;
+    position: relative;
+    top: 65px;
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
@@ -77,6 +53,8 @@
 }
 
 .who {
+    position: relative;
+    top: -20px;
     color: #162225;
     font: 16px Arial, Helvetica, sans-serif;
     line-height: 1.6;
@@ -99,7 +77,6 @@
     font-size: 30px;
     color: #162225;
     font: 30px Arial, Helvetica, sans-serif;
-    padding: 0px;
     position: relative;
     top: 80px;
     text-align: center;
@@ -116,23 +93,41 @@
     text-align: center;
 }
 
-.but {
+.but3 {
+    width: 100%;
     position: relative;
-    top: 220px;
-    left: 43%;
+    top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.but1 {
+.but2 {
+    width: 100%;
+    position: relative;
+    top: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+
+.but {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.chat {
     color: #ffffff;
     font: 16px Arial, Helvetica, sans-serif;
     padding: 0px;
     position: relative;
-    top: 153px;
     line-height: 2;
     text-align: center;
-}
-
-.chat {
     text-decoration: none;
 }
 
@@ -187,5 +182,6 @@
 
 #main {
     width: 100%;
-    padding: 80px;
+    position: relative;
+    top: 100px;
 }
